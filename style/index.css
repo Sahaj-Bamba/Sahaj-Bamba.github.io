@@ -1,0 +1,87 @@
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+/* body::-webkit-scrollbar {
+    display: none;
+} */
+/* Hide scrollbar for IE and Edge */
+/* body {
+    -ms-overflow-style: none;
+} */
+
+
+body {
+    height: 100vh;
+}
+
+h2{
+    text-align: center;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.main-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile > .profile-pic {
+    background-image: url("../files/images/profile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.profile > content {
+    text-align: center;
+}
+
+.header {
+    
+}
+
+.main-first {
+    background-image: url("../files/images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tag {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.tag > button > .image1 {
+    background-image: url("../files/images/profile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+
+.social > .image2 {
+    background-image: url("../files/images/profile.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
