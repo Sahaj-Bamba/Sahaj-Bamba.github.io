@@ -37,8 +37,8 @@ a:hover, a:focus {
     background-position: center;
     background-size: cover;
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 300px;
 }
 
 .profile > content {
