@@ -106,3 +106,7 @@ a:hover, a:focus {
         left: 10%;
     }
 }
+
+#achievements > ul > li{
+    font-size: 1.35em;
+}
