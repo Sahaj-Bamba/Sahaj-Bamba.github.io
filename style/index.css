@@ -11,6 +11,7 @@
 
 body {
     height: 100vh;
+    overflow-x: hidden;
 }
 
 h2{
@@ -110,3 +111,20 @@ a:hover, a:focus {
 #achievements > ul > li{
     font-size: 1.35em;
 }
+
+.project-element > .project-pic{
+    width: auto; height: 100%; display: inline;
+}
+
+.project-element > .project-content{
+    display: inline; height: auto; width: auto;
+}
+
+.project-element > .project-content > .project-title{
+    text-align: center; position: relative; left: -15%;
+}
+
+.project-element > .project-content > .project-links > .buttons{
+    align-items: left; text-align: left;
+}
+
